@@ -30,8 +30,8 @@ deploy:
     api_key:
       secure: "ccNpDNdD5uenbavjaKCYVgqqPr/csExqSb5JxxJfoXoOHvlYJViWzcC15XxZaX0/93lRjIst3iu4H/UOcOvNx/Z5jO52hKuxXZFo9bNe9jC2JoXN2P2s8PCsQJbMme07abULfsafwYDQpyAhggv2BIFco4388VlPJsZCSTiyPVCqeSTB4D4TFqG7SSFG8A+ologK3AW0clvyIOPnBxfucmiqKxSMacw21Zm9CD/C7xICMBtycxXFrMXCJkS/6TAtktMXJyaCulblPv4VwzJkgTp1/1793pAK9mH16qL9Yr7uTP8iMNGiNdpTCDSJU2Y/4cvy3R20IujQa1nQxdJBQyrZJF8MVgglr56OqoM2OOkwne55zYzCWKB7svaRSdDa4Ztj1fFHAP3JgWxhwaFKL+Xq6vUnSMLolB2QYAB5Z0Xy6/srL3FasRbvG3fWWGXkKfp4I3YKkkE1sRVjtYgUA7e4pEzbHLPoNL161m/gfrcC8kyOq7mPOlKQ+E3Wk+6QquHG7D4LJEuAB7m1yM2L9nbDE9DF6A/2W50dXwv98qfRoDeFhXZS/wwqRKWDrdDhMwmFjWh1KYXi8Fk5xpoKpwxBu0hUseVDvm4bcqWmEP7kthk3aND0Hd5OgW4QpyqVEjX+hf3AgkIpk6NhwnXnRjJyvKKk9AKf+3WBbiU+gqI="
     file_glob: true
-      file: products/*
-      skip_cleanup: true
-      on:
-        repo: SnowballBuilder
-        tags: true
+    file: products/*
+    skip_cleanup: true
+    on:
+      repo: SnowballBuilder
+      tags: true
