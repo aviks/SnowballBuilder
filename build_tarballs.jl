@@ -30,6 +30,7 @@ script = raw"""
 cd $WORKSPACE/srcdir
 cd libstemmer/
 sed -i -e 's/ADD_LIBRARY(stemmer/ADD_LIBRARY(stemmer SHARED/' CMakeLists.txt
+sed -i -e 's/DESTINATION lib/RUNTIME DESTINATION bin LIBRARY DESTINATION lib/' CMakeLists.txt
 cmake -DCMAKE_INSTALL_PREFIX=/ -DCMAKE_TOOLCHAIN_FILE=/opt/$target/$target.toolchain
 make
 make install
