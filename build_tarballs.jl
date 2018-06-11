@@ -38,7 +38,7 @@ make install
 """
 
 products = prefix -> [
-    LibraryProduct(prefix,"libstemmer")
+    LibraryProduct(prefix,"libstemmer", :libstemmer)
 ]
 
 
